@@ -1,0 +1,384 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+#page
+{
+	max-width: 100%;
+	background: #fff;
+}
+
+#header
+{
+	margin: 0;
+	padding: 2px 0;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 0px 20px;
+}
+
+#mainmenu
+{
+	background: #ca1f1f;
+}
+
+#mainmenu ul
+{
+	padding: 0px 20px 0px 20px;
+	margin: 0;
+}
+
+#mainmenu ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size: 12px;
+	text-decoration:none;
+	display: inline-block;
+	padding: 16px 7px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #fff;
+	background-color: #484848;
+	text-decoration:none;
+	padding: 16px 7px;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 10px 20px;
+	background: #eee;
+}
+
+div.breadcrumbs span
+{
+	color: #ca1f1f;
+	font-size: 1.2em;
+}
+
+div.search-form
+{
+	padding: 20px 10px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+}
+
+.portlet
+{
+
+}
+#content h3{color: #484848;text-transform:uppercase;padding:20px 0;font-weight: bold;margin: 10px 0 20px;border-bottom: 1px solid #eee;}
+.portlet-decoration
+{background: #ca1f1f;width: 100%;}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	padding: 10px 0 10px 10px;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	background: #eee;
+	width: 100%;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding: 0;
+}
+
+.portlet-content li
+{
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #cc0000;
+	display: block;
+	width: 100%;
+	padding: 8px 0 8px 0;
+	line-height: 15px;
+	text-decoration: none;
+	transition: all ease .6s;
+	text-align: center;
+}
+
+.operations li a:visited
+{
+	color: #484848;
+}
+
+.operations li a:hover
+{
+	background: #484848;
+	color: #fff;
+}
+
+div.formcompletediv
+{
+height:40px;
+background-color:#FF0000;
+width:600px;
+}
+
+#errdivs
+{
+font-style:bold;
+color:#FF0000;
+}
+
+div.reddiv
+{
+background-color:#FF0000;
+height:25px
+}
+
+div.greeddiv
+{
+background-color:#228B22;
+height:25px
+}
+
+div.orangediv
+{
+background-color:#FF8C00;
+height:25px
+}
+
+div.yellowdiv
+{
+background-color:#FFFF06;
+height:25px
+}
+.breadcrumbs a{color:#484848;font-size: 1.2em;text-decoration: none;}
+
+
+
+div.frontinfo
+{
+line-height:30px;
+width:880px;
+}
+div.modalfonts
+{
+font-size:9.5px;
+font-stretch:extra-condensed;
+margin-bottom:0px;
+font-size-adjust:inherit;
+}
+
+div.reportlinks
+{
+position:absolute;
+top:20%;
+left:60%;
+widows:500;
+}
+
+div.updatemodal
+{
+background-color:#000099;
+position:absolute;
+top:20%;
+left:60%;
+}
+.search-button{transition:alll ease .7s;background:#333;color:#fff;padding: 10px 10px;text-decoration: none;display: inline-block;}
+.search-button:hover{background:#ff1212; color:#fff;}
+
+#mainContainer{
+		width:660px;
+		margin:0 auto;
+		text-align:left;
+		height:100%;
+		background-color:#FFF;
+		border-left:3px double #000;
+		border-right:3px double #000;
+
+		z-index:10000;
+	}
+	#formContent{
+		padding:5px;
+	}
+	/* END CSS ONLY NEEDED IN DEMO */
+	
+	
+	/* Big box with list of options */
+	#ajax_listOfOptions{
+		position:absolute;	/* Never change this one */
+		width:175px;	/* Width of box */
+		height:150px;	/* Height of box */
+		overflow:auto;	/* Scrolling features */
+		border:1px solid #317082;	/* Dark green border */
+		background-color:#FFF;	/* White background color */
+		text-align:left;
+		font-size:0.9em;
+		z-index:100;
+		z-index:10000;
+	}
+	#ajax_listOfOptions div{	/* General rule for both .optionDiv and .optionDivSelected */
+		margin:1px;		
+		padding:1px;
+		cursor:pointer;
+		font-size:0.9em;
+		z-index:10000;
+	}
+	#ajax_listOfOptions .optionDiv{	/* Div for each item in list */
+		
+	}
+	#ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+		background-color:#317082;
+		color:#FFF;
+		z-index:10000;
+	}
+	#ajax_listOfOptions_iframe{
+		background-color:#F00;
+		position:absolute;
+		z-index:5;
+	}
+	
+	form{
+		display:inline;
+	}
+	.wide.form input{padding:8px 10px;width: 177px;border: 1px solid #eee;}
+	.wide.form input[type="submit"]{display:inline-block;width: auto;padding: 7px 20px;border: none;background: #484848;color: #fff;text-transform: uppercase;outline: none;cursor: pointer;}
+	.wide.form select{
+    padding: 6px 20px;
+    outline: none;
+    color: #484848;
+    border: 1px solid #ccc;
+    width: 200px;
+    }
+	.logo img{max-width: 90px;width:100%;}
+	.slogan{    display: inline-block;
+    vertical-align: top;
+    line-height: 55px;
+    font-size: 1.3em;}
+    .span-19{width:70%;}
+    .span-5 {width:25%;float: right !important;}
+    .export_add_wrapper{float: right;}
+    .export_add_wrapper a{    padding: 5px 10px;
+    display: inline-block;
+    background: #888;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 5px solid #cc0000;}
+
+@media (max-width: 960px) {
+    .span-19{width:100%;}
+    .span-5 {width:25%;float: left !important;}	
+}
+@media (max-width: 768px) {
+    .grid-view {padding: 15px 0; overflow-x: scroll;}
+	.grid-view table.items {overflow-x: scroll; width: 600px;}
+	.last, div.last {margin-left: 20px;width: 50%;} 
+}

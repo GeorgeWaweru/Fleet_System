@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Configuration panel -->
+<banner width = "" height = ""
+		startWith = "1" 
+		random = "false"
+		
+		backgroundColor = "0xffffff" 
+		backgroundTransparency = "100"
+		
+		cellWidth = "50"
+		cellHeight = "50"
+		
+		showMinTime = "0.2"
+		showMaxTime = "1.5"
+		
+		blur = "50"
+		netTime = "0.5"
+		alphaNet = "80"
+		netColor = "0x000000"
+		
+		overColor = "0x473C31"
+		normalColor = "0x000000"
+		selectedTextColor = "0xffffff"
+		
+		selectedButtonAlpha = "70"
+		
+		controllerVisible = "true"
+		controllerBackgroundVisible = "true"
+		
+		prevNextVisible = "true"
+		playBtVisible = "true"
+		autoPlay = "true"
+		navigationButtonsColor = "0x1a1a1a"
+		
+		controllerDistanceX = "10"
+		controllerDistanceY = "10"
+		
+		controllerHeight = "27"
+		distanceBetweenControllerElements = "10"
+		distanceBetweenThumbs = "3"
+		
+		itemNumberSize = "12"
+		
+		captionY = "10"
+		captionX = "10"			
+		
+		captionWidth = "390"
+
+		buttonText = "read more"
+		btnNormalColor = "0xffffff"
+		btnOverColor = "0x999999"
+		
+		readMoreBackAlpha = "80"
+		readMoreBackColor = "0x473C31"
+		
+		paddingX = "20"
+		paddingY = "15"
+		
+		btnSpacingW = "50"
+		btnSpacingH = "5"
+		
+		loaderColor = "0x000000">
+<!-- End panel -->
+
+
+<!--If you want to customize your font use, for example:
+	<font color='#FFffff' size='18px' family='Times, Times New Roman'> your text </font> 
+	
+	You can skip all values after link, as these have a default value as well
+-->
+	<item>
+		<path>content/images/image1.jpg</path>
+		<title><![CDATA[While some images can have a title]]></title>
+		<caption><![CDATA[And a description as well...]]></caption>
+		
+		<target>_blank</target>
+		<link>http://www.flabell.com/flash-components</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>20</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image2.jpg</path>
+		<title></title>
+		<caption><![CDATA[Other images can have only a description, and it can be of any length.]]></caption>
+		<target>_blank</target>
+		<link></link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>8</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image3.jpg</path>
+		<title></title>
+		<caption><![CDATA[For example of this length: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet labore et dolore magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image4.jpg</path>
+		<title><![CDATA[You can also add just a title.]]></title>
+		<caption></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+
+	<item>
+		<path>content/images/image5.jpg</path>
+		<title><![CDATA[This is a sample title.]]></title>
+		<caption><![CDATA[In order to add a longer title, make sure you resize this white box the text appears in. You can set the size in the XML files.]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image6.jpg</path>
+		<title><![CDATA[Want to display only the image?]]></title>
+		<caption><![CDATA[Than add no title and no description, as we did in the next image!]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image7.jpg</path>
+		<title></title>
+		<caption></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>3</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image8.jpg</path>
+		<title><![CDATA[You can hide also the control box]]></title>
+		<caption><![CDATA[But to do this you have to edit the main settings in the XML file. If you want to hide the next and prev buttons, you can do that as well.]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image1.jpg</path>
+		<title><![CDATA[<font color="#ffff00">Want to change the colors?</font>]]></title>
+		<caption><![CDATA[ <font color="#ff0000">If you want to set the transparency or the color of the boxes, that's also doable from the XML. In this example we made them red and the text white!</font>]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image2.jpg</path>
+		<title><![CDATA[Want to add no links for the images?]]></title>
+		<caption><![CDATA[Simple don't set any links in the XML, as we did for this image. You see there's no click for it and also the read more button is missing. And yes, you can change the caption of the read more button too, for example you can change it to <u>MORE</u>.]]></caption>
+		<target>_blank</target>
+		<link></link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image3.jpg</path>
+		<title><![CDATA[Want the image to change on click only?]]></title>
+		<caption><![CDATA[Set the slideshow time to 0, as we did for this slide. Now it will not move to any image by itself unless you select another image. If you set the slideshow time to 0 for each image, each image will just stay selected until you manually select another image. Select next image to continue slideshow! :)]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>0</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image4.jpg</path>
+		<title><![CDATA[<title>Title Four Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amete magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image5.jpg</path>
+		<title><![CDATA[<title>Title Five Here</title>]]></title>
+		<caption><![CDATA[Lorem ipsum dolor sit amet...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image6.jpg</path>
+		<title><![CDATA[<title>Title Six Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet labore et dolore magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image7.jpg</path>
+		<title><![CDATA[<title>Title Seven Here</title>]]></title>
+		<caption><![CDATA[Lorem ipsum dolor sit amet...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image8.jpg</path>
+		<title><![CDATA[<title>Title Eight Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amete magna aliqua...]]></caption>
+		<target>_self</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image1.jpg</path>
+		<title><![CDATA[While some images can have a title]]></title>
+		<caption><![CDATA[And a description as well...]]></caption>
+		
+		<target>_blank</target>
+		<link>http://www.flabell.com/flash-components</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>20</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image2.jpg</path>
+		<title></title>
+		<caption><![CDATA[Other images can have only a description, and it can be of any length.]]></caption>
+		<target>_blank</target>
+		<link></link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>8</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image3.jpg</path>
+		<title></title>
+		<caption><![CDATA[For example of this length: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet labore et dolore magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image4.jpg</path>
+		<title><![CDATA[You can also add just a title.]]></title>
+		<caption></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image5.jpg</path>
+		<title><![CDATA[This is a sample title.]]></title>
+		<caption><![CDATA[In order to add a longer title, make sure you resize this white box the text appears in. You can set the size in the XML files.]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image6.jpg</path>
+		<title><![CDATA[Want to display only the image?]]></title>
+		<caption><![CDATA[Than add no title and no description, as we did in the next image!]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image7.jpg</path>
+		<title></title>
+		<caption></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>3</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image8.jpg</path>
+		<title><![CDATA[You can hide also the control box]]></title>
+		<caption><![CDATA[But to do this you have to edit the main settings in the XML file. If you want to hide the next and prev buttons, you can do that as well.]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image1.jpg</path>
+		<title><![CDATA[<font color="#ffff00">Want to change the colors?</font>]]></title>
+		<caption><![CDATA[ <font color="#ff0000">If you want to set the transparency or the color of the boxes, that's also doable from the XML. In this example we made them red and the text white!</font>]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image2.jpg</path>
+		<title><![CDATA[Want to add no links for the images?]]></title>
+		<caption><![CDATA[Simple don't set any links in the XML, as we did for this image. You see there's no click for it and also the read more button is missing. And yes, you can change the caption of the read more button too, for example you can change it to <u>MORE</u>.]]></caption>
+		<target>_blank</target>
+		<link></link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image3.jpg</path>
+		<title><![CDATA[Want the image to change on click only?]]></title>
+		<caption><![CDATA[Set the slideshow time to 0, as we did for this slide. Now it will not move to any image by itself unless you select another image. If you set the slideshow time to 0 for each image, each image will just stay selected until you manually select another image. Select next image to continue slideshow! :)]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>0</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image4.jpg</path>
+		<title><![CDATA[<title>Title Four Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amete magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image5.jpg</path>
+		<title><![CDATA[<title>Title Five Here</title>]]></title>
+		<caption><![CDATA[Lorem ipsum dolor sit amet...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image6.jpg</path>
+		<title><![CDATA[<title>Title Six Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet labore et dolore magna aliqua...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image7.jpg</path>
+		<title><![CDATA[<title>Title Seven Here</title>]]></title>
+		<caption><![CDATA[Lorem ipsum dolor sit amet...]]></caption>
+		<target>_blank</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<item>
+		<path>content/images/image8.jpg</path>
+		<title><![CDATA[<title>Title Eight Here</title>]]></title>
+		<caption><![CDATA[Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amete magna aliqua...]]></caption>
+		<target>_self</target>
+		<link>http://www.flabell.com</link>
+		
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		
+		<caption_color>0xffffff</caption_color>
+		<caption_transparency>60</caption_transparency>
+		
+		<stroke_color>0xffffff</stroke_color>
+		<stroke_transparency>60</stroke_transparency>
+		
+		<slideshowTime>5</slideshowTime>
+	</item>	
+	
+
+</banner>
